@@ -7,10 +7,8 @@ export const SearchForm = () => {
         <input 
             name='q' 
             className={styles.input} 
-            placeholder='Digite o que você procura' 
+            placeholder='Search...' 
         />
-        <Button>
-            Buscar
-        </Button>
+        <Button>Search</Button>
     </form>)
 }

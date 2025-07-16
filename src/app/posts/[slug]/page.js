@@ -42,7 +42,7 @@ const PagePost = async ({ params }) => {
     const post = await getPostBySlug(params.slug)
     return (<div>
         <CardPost post={post} highlight />
-        <h3 className={styles.subtitle}>Código:</h3>
+        <h3 className={styles.subtitle}>Code:</h3>
         <div className={styles.code}>
             <div dangerouslySetInnerHTML={{ __html: post.markdown }} />
         </div>

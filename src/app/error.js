@@ -21,10 +21,10 @@ export default function Error({
   return (
     <div className={style.container}>
       <Image src={banner}/>
-      <Heading>Opa! Ocorreu um erro.</Heading>
-      <p className={style.text}>Não conseguimos carregar a página, volte para seguir navegando.</p>
+      <Heading>Oops! Something has happened.</Heading>
+      <p className={style.text}>We couldn't load the page correctly.</p>
       <Link href="/">
-        Voltar ao feed <ArrowBack color='#81FE88'/>
+        Back to the home page <ArrowBack color='#81FE88'/>
       </Link>
     </div>
   )
